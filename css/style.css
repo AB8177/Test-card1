@@ -1,0 +1,64 @@
+
+body{
+    background-color: #e3e3e3;
+    padding-top: 70px;
+}
+body > * {
+    margin: 0 auto;
+}
+
+.grand > *{
+    margin: 0 auto;
+}
+.grand {
+    width: 320px;
+    height: 200px;
+    background-color: chartreuse;
+    border-radius: 5%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+#child1{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255, 0.3);
+    position: absolute;
+    top: -20px;
+    right: -70px;
+
+}
+
+#child2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255, 0.3);
+    position: absolute;
+    top: 90px;
+    right: -50px;
+}
+
+.infoText > h4{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(223, 17, 17);
+    
+}
+.infoText > h1{
+    margin-left: 120px;
+    font-size: 30px;
+    color: rgb(35, 22, 214);
+    
+}
+.infoText > h5{
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(1, 0, 5);
+}
+.row form-inline form-container > div{
+    margin: 10px 20px;
+}
